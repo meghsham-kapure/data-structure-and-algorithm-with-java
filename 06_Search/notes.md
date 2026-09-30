@@ -170,4 +170,6 @@ public class BinarySearch{
 > Rules of thumb for DSA problems based on index-based operations, for a sorted collection, try binary search and for an unsorted collection, use linear search
 
 
-1. when `while(start<=end)` is run at last the `start` is `end+1`
+- When matrix array is unsorted both column-wise and row-wise the applying linear search is the approach
+- When matrix array is sorted just in 1 direction i.e. column-wise or raise on the sorted part binary search can be applied
+- When matrix array is completely sorted column and raw wise the binary search can be applied in both direction  
